@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>市川茶屋｜札幌の日本茶専門店</title>
+  <meta name="description" content="札幌・南4条西6丁目の日本茶専門店「市川茶屋」。九州の茶産地で学んだ店主によるオリジナル煎茶と、自家焙煎のほうじ茶。">
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#F4EDDB">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;700&display=swap">
+  <link rel="stylesheet" href="style.css">
+  <script>document.documentElement.classList.add("js");</script>
+  <script src="design.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">本文へ移動</a>
+
+  <div class="sample-bar"><span>提案用サンプル（店主確認用）｜メニューは店頭のメニュー表から書き起こし・確認前</span><span class="design-switch" aria-label="デザインのサンプル"><a data-design="a" href="?design=a">サンプル1 明朝</a><a data-design="b" href="?design=b">サンプル2 手書き風</a></span></div>
+
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a class="brand" href="./">
+        <img src="assets/img/logo.png" alt="市川茶屋" width="360" height="272">
+      </a>
+      <nav class="gnav" id="gnav" aria-label="サイト内">
+        <ul>
+          <li><a href="#visit">お店のメニュー</a></li>
+          <li><a href="menu.html?lang=ja">お品書き</a></li>
+          <li><a href="#tea">お持ち帰り・通販</a></li>
+          <li><a href="#access">アクセス</a></li>
+          <li><a href="https://ichikawa0501.base.ec/" target="_blank" rel="noopener">オンラインショップ<span class="ext" aria-hidden="true">↗</span></a></li>
+        </ul>
+      </nav>
+      <a class="btn-en" href="menu.html" lang="en">English Menu</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="gnav">
+        <span class="nav-toggle__bars" aria-hidden="true"></span>
+        <span class="nav-toggle__label">目次</span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ② 最初に見えるエリア -->
+    <section class="hero" aria-labelledby="hero-title">
+      <figure class="hero__photo">
+        <img src="assets/img/hero-sencha.jpg"
+             srcset="assets/img/hero-sencha-sm.jpg 900w, assets/img/hero-sencha.jpg 1600w"
+             sizes="(min-width: 960px) 58vw, 100vw"
+             width="1600" height="1067" fetchpriority="high"
+             alt="木の盆にのせた湯のみの煎茶と急須">
+      </figure>
+      <div class="hero__text">
+        <p class="hero__kicker">札幌の日本茶専門店</p>
+        <h1 class="hero__title" id="hero-title">
+          <span>いつもの日々に、</span><span>お茶で、</span><span>ひといき。</span>
+        </h1>
+        <p class="hero__lead">九州の茶産地で学んだ店主の、オリジナル煎茶と自家焙煎のほうじ茶。<br>南4条西6丁目、レトロなビルの地下にあるお店です。</p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="menu.html" lang="en">English Menu<span class="btn__sub" lang="ja">英語のお品書き</span></a>
+          <a class="btn btn--line" href="menu.html?lang=ja">お品書きを見る</a>
+          <a class="btn btn--line" href="#access">店舗情報・アクセス</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker__track">
+        <span>煎茶</span><span>自家焙煎ほうじ茶</span><span>八女</span><span>知覧</span><span lang="en">Japanese Tea House in Sapporo</span><span>いつもの日々に、お茶で、ひといき。</span>
+        <span>煎茶</span><span>自家焙煎ほうじ茶</span><span>八女</span><span>知覧</span><span lang="en">Japanese Tea House in Sapporo</span><span>いつもの日々に、お茶で、ひといき。</span>
+      </div>
+    </div>
+
+    <!-- ③ 市川茶屋・店主の紹介 -->
+    <section class="section about" id="about" aria-labelledby="about-title">
+      <header class="sec-head reveal">
+        <span class="sec-head__no" aria-hidden="true">01</span>
+        <h2 id="about-title">市川茶屋のこと</h2>
+        <span class="sec-head__en" lang="en">About us</span>
+      </header>
+
+      <figure class="framed about__photo reveal">
+        <img src="assets/img/interior.jpg" width="1170" height="356" loading="lazy"
+             alt="店内の壁。六段位の認定証の額、扇子、茶器の棚、丸い照明が並ぶ">
+        <figcaption>店内の壁には、六段位の認定証。棚には急須や湯のみが並びます。</figcaption>
+      </figure>
+
+      <div class="about__grid">
+        <div class="about__body">
+          <p class="about__lead reveal"><span>最初に飲んだお茶の味が</span><span>忘れられず、</span><br><span>その美味しさを、</span><span>地元・北海道の人にも。</span></p>
+          <p class="reveal">学生時代にお茶の魅力に惹かれた店主は、卒業後、福岡県八女市や鹿児島県知覧町で、お茶の栽培・製造・販売に携わりました。約4年間九州で学んだのち、地元の北海道に戻り、札幌で市川茶屋を開きました。</p>
+          <p class="reveal">めざしているのは、手軽に美味しいお茶を飲める、居心地のいい場所。オリジナル煎茶や自家焙煎のほうじ茶、季節のお茶を扱っています。</p>
+        </div>
+
+        <div class="about__history reveal">
+          <p class="about__history-title">店主の歩み</p>
+          <ol class="ledger">
+            <li><span class="ledger__year">2019–2022</span><span class="ledger__text">九州の八女・知覧で、お茶の栽培・製造・販売を経験</span></li>
+            <li><span class="ledger__year">2019</span><span class="ledger__text">全国茶審査技術競技大会で<strong>六段位</strong>を取得</span></li>
+            <li><span class="ledger__year">2023</span><span class="ledger__text">北海道に戻り、市川茶屋を開店</span></li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- 02 お店のメニュー（店内でいただくもの） -->
+    <section class="section visit" id="visit" aria-labelledby="visit-title">
+      <header class="sec-head reveal">
+        <span class="sec-head__no" aria-hidden="true">02</span>
+        <h2 id="visit-title">お店のメニュー</h2>
+        <span class="sec-head__en" lang="en">In the shop</span>
+      </header>
+
+      <div class="visit__intro">
+        <div class="visit__body">
+          <p class="reveal">産地の違う煎茶を飲み比べたり、玉露や抹茶、自家焙煎のほうじ茶をゆっくり味わったり。お茶にはちょっとしたお菓子が付きます。</p>
+          <div class="visit-rec reveal" id="visit-rec"></div>
+        </div>
+        <figure class="framed visit__photo reveal">
+          <img src="assets/img/houjicha.jpg" width="1000" height="667" loading="lazy"
+               alt="木の盆にのせた湯のみのほうじ茶と急須">
+          <figcaption>自家焙煎のほうじ茶</figcaption>
+        </figure>
+      </div>
+
+      <div class="board reveal">
+        <div class="board__col">
+          <h3 class="board__title">お茶</h3>
+          <ul class="lines" id="tea-lines"></ul>
+          <h3 class="board__title">お酒</h3>
+          <ul class="lines" id="alcohol-lines"></ul>
+        </div>
+        <div class="board__col">
+          <h3 class="board__title">甘味・お茶漬け</h3>
+          <ul class="lines" id="food-lines"></ul>
+          <h3 class="board__title">セット</h3>
+          <ul class="lines" id="set-lines"></ul>
+        </div>
+      </div>
+
+      <div class="visit__foot">
+        <div class="enjoy reveal">
+          <p class="enjoy__title">お店での楽しみ方</p>
+          <ol class="enjoy__list" id="house-notes"></ol>
+        </div>
+        <div class="visit__actions reveal">
+          <a class="btn btn--primary" href="menu.html?lang=ja">お品書きをすべて見る</a>
+          <a class="btn btn--line" href="menu.html" lang="en">English Menu</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 03 お持ち帰り・通販 -->
+    <section class="section tea" id="tea" aria-labelledby="tea-title">
+      <header class="sec-head reveal">
+        <span class="sec-head__no" aria-hidden="true">03</span>
+        <h2 id="tea-title">お持ち帰り・通販</h2>
+        <span class="sec-head__en" lang="en">Take-home &amp; online</span>
+      </header>
+
+      <div class="sweets__grid" id="sweets">
+        <figure class="framed sweets__photo reveal">
+          <img src="assets/img/dorayaki.jpg" width="1000" height="941" loading="lazy"
+               alt="朱色の盆にのせた、半分に切ったほうじ茶あんどら焼き">
+        </figure>
+        <div class="sweets__body" id="sweets-feature"></div>
+      </div>
+
+      <h3 class="tea__subhead reveal">「ひといき」の茶葉</h3>
+      <p class="tea__lead reveal">朝、昼、夜、そしていつもの時間に。お店で飲んだお茶を、ご自宅でも。店頭のほか、オンラインショップでも購入できます。</p>
+
+      <div class="price-note reveal" role="note">
+        <p class="price-note__title">価格の見かた</p>
+        <p><strong>店頭価格</strong>はお店で茶葉を買うときの価格（店頭メニュー表の表記）、<strong>通販価格</strong>はオンラインショップの税込価格（<span data-checked></span>確認）です。どちらも茶葉の価格で、店内で飲む一杯の価格ではありません。</p>
+      </div>
+
+      <ol class="shina" id="tea-list"></ol>
+      <noscript><p><a href="https://ichikawa0501.base.ec/">オンラインショップで商品を見る</a></p></noscript>
+
+      <p class="tea__gift reveal">ティーバッグや八女抹茶、ギフト用の「ひといきの贈り箱」なども、<a href="https://ichikawa0501.base.ec/" target="_blank" rel="noopener">オンラインショップ<span class="ext" aria-hidden="true">↗</span></a>で取り扱っています。</p>
+    </section>
+
+    <!-- ⑥ 店舗情報 -->
+    <section class="section access" id="access" aria-labelledby="access-title">
+      <header class="sec-head reveal">
+        <span class="sec-head__no" aria-hidden="true">04</span>
+        <h2 id="access-title">店舗情報</h2>
+        <span class="sec-head__en" lang="en">Access</span>
+      </header>
+
+      <div class="access__grid">
+        <div class="access__info reveal">
+          <dl class="info-list">
+            <div><dt>店名</dt><dd data-shop="name">市川茶屋</dd></div>
+            <div><dt>住所</dt><dd><span data-shop="postal"></span><br><span data-shop="address"></span></dd></div>
+            <div><dt>営業時間</dt><dd data-shop="hours"></dd></div>
+            <div><dt>定休日</dt><dd data-shop="closed"></dd></div>
+          </dl>
+          <p class="access__notice">臨時休業や最新のお知らせは、Instagramでご確認ください。</p>
+          <div class="access__actions">
+            <a class="btn btn--primary" href="https://www.instagram.com/ichikawachaya/" target="_blank" rel="noopener">Instagramで最新情報を見る<span class="ext" aria-hidden="true">↗</span></a>
+            <a class="btn btn--line" id="map-link" href="https://www.google.com/maps/search/?api=1&amp;query=%E5%8C%97%E6%B5%B7%E9%81%93%E6%9C%AD%E5%B9%8C%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%8D%974%E6%9D%A1%E8%A5%BF6%E4%B8%81%E7%9B%AE8-3" target="_blank" rel="noopener">Googleマップで開く<span class="ext" aria-hidden="true">↗</span></a>
+          </div>
+          <figure class="access__entrance">
+            <img src="assets/img/entrance.jpg" width="800" height="534" loading="lazy"
+                 alt="「市川茶屋」と書かれた看板と緑ののれんがかかる入口">
+            <figcaption>地下の入口。この看板とのれんが目印です。</figcaption>
+          </figure>
+        </div>
+        <div class="access__map reveal">
+          <iframe id="map-frame" title="市川茶屋の地図（Googleマップ）" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                  src="https://maps.google.com/maps?q=%E5%8C%97%E6%B5%B7%E9%81%93%E6%9C%AD%E5%B9%8C%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%8D%974%E6%9D%A1%E8%A5%BF6%E4%B8%81%E7%9B%AE8-3&amp;z=17&amp;output=embed"></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ⑦ フッター -->
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <div class="site-footer__brand">
+        <img src="assets/img/logo.png" alt="市川茶屋" width="360" height="272" loading="lazy">
+        <p data-shop="address"></p>
+      </div>
+
+      <ul class="site-footer__links">
+        <li><a href="https://ichikawa0501.base.ec/" target="_blank" rel="noopener">オンラインショップ<span class="ext" aria-hidden="true">↗</span></a></li>
+        <li><a href="https://www.instagram.com/ichikawachaya/" target="_blank" rel="noopener">Instagram<span class="ext" aria-hidden="true">↗</span></a></li>
+        <li><a href="menu.html?lang=ja">お品書き</a></li>
+        <li><a href="menu.html" lang="en">English Menu</a></li>
+      </ul>
+
+      <div class="qr-card">
+        <img class="qr-card__img" id="qr-img" src="assets/img/qr-sample.svg" width="120" height="120" loading="lazy"
+             alt="店頭用QRコードの見本（読み取りはできません）">
+        <div>
+          <p class="qr-card__title">店頭用QRコード<span class="qr-card__badge" id="qr-badge">見本</span></p>
+          <p class="qr-card__text" id="qr-text">公開先が決まったら、English Menuページへ直接つながるQRコードに差し替えます。</p>
+          <a class="qr-card__link" href="menu.html" lang="en">English Menu を開く →</a>
+        </div>
+      </div>
+    </div>
+    <p class="site-footer__note">店内メニュー・店頭価格は店頭のメニュー表より（変更になる場合があります）。通販価格は <span data-checked></span> 時点のオンラインショップ税込価格です。</p>
+    <p class="site-footer__copy"><small>© 市川茶屋</small></p>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
