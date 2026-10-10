@@ -1,0 +1,316 @@
+{
+  "languages": [
+    {
+      "code": "ja",
+      "label": "日本語"
+    },
+    {
+      "code": "en",
+      "label": "English"
+    },
+    {
+      "code": "ko",
+      "label": "한국어"
+    },
+    {
+      "code": "zh-Hans",
+      "label": "简体中文"
+    },
+    {
+      "code": "zh-Hant",
+      "label": "繁體中文"
+    }
+  ],
+  "tabs": [
+    {
+      "id": "tea",
+      "label": {
+        "ja": "お茶",
+        "en": "Tea",
+        "ko": "차",
+        "zh-Hans": "茶饮",
+        "zh-Hant": "茶飲"
+      },
+      "note": null,
+      "groups": [
+        "original",
+        "sencha",
+        "special",
+        "latte"
+      ]
+    },
+    {
+      "id": "sweets",
+      "label": {
+        "ja": "甘味",
+        "en": "Sweets",
+        "ko": "디저트",
+        "zh-Hans": "甜品",
+        "zh-Hant": "甜點"
+      },
+      "note": null,
+      "groups": [
+        "sweets"
+      ]
+    },
+    {
+      "id": "meals",
+      "label": {
+        "ja": "お食事",
+        "en": "Meals",
+        "ko": "식사",
+        "zh-Hans": "餐食",
+        "zh-Hant": "餐食"
+      },
+      "note": null,
+      "groups": [
+        "ochazuke",
+        "set"
+      ]
+    },
+    {
+      "id": "alcohol",
+      "label": {
+        "ja": "お酒",
+        "en": "Alcohol",
+        "ko": "주류",
+        "zh-Hans": "酒类",
+        "zh-Hant": "酒類"
+      },
+      "note": {
+        "ja": "18時以降、お酒を飲まれる方はチャージ料として300円いただいております。",
+        "en": "After 6 pm, a ¥300 charge applies to guests ordering alcohol.",
+        "ko": "오후 6시 이후 주류를 주문하시는 분께는 300엔의 추가 요금이 부과됩니다.",
+        "zh-Hans": "18:00后，点酒的客人需支付300日元附加费。",
+        "zh-Hant": "18:00後，點酒的客人需支付300日圓附加費。"
+      },
+      "groups": [
+        "chazake",
+        "beer",
+        "sour"
+      ]
+    }
+  ],
+  "groups": {
+    "original": {
+      "label": {
+        "ja": "市川茶屋オリジナル煎茶",
+        "en": "Our original sencha",
+        "ko": "이치카와 차야 블렌드 센차",
+        "zh-Hans": "市川茶屋原创煎茶",
+        "zh-Hant": "市川茶屋原創煎茶"
+      },
+      "note": null
+    },
+    "sencha": {
+      "label": {
+        "ja": "煎茶メニュー（温 or 水出し）",
+        "en": "Sencha selection (hot or cold‑brewed)",
+        "ko": "센차 (따뜻한 차 또는 냉침차)",
+        "zh-Hans": "煎茶（热茶或冷泡茶）",
+        "zh-Hant": "煎茶（熱茶或冷泡茶）"
+      },
+      "note": {
+        "ja": "セットのお茶はこちらからお選びください。",
+        "en": "For sets, choose your tea from this list.",
+        "ko": "세트의 차는 이 목록에서 골라 주세요.",
+        "zh-Hans": "套餐中的茶饮请从此处选择。",
+        "zh-Hant": "套餐中的茶飲請從此處選擇。"
+      }
+    },
+    "special": {
+      "label": {
+        "ja": "玉露・ほうじ茶・抹茶",
+        "en": "Gyokuro, hojicha & matcha",
+        "ko": "교쿠로·호지차·말차",
+        "zh-Hans": "玉露·焙茶·抹茶",
+        "zh-Hant": "玉露·焙茶·抹茶"
+      },
+      "note": null
+    },
+    "latte": {
+      "label": {
+        "ja": "ラテ",
+        "en": "Lattes",
+        "ko": "라테",
+        "zh-Hans": "拿铁",
+        "zh-Hant": "拿鐵"
+      },
+      "note": null
+    },
+    "sweets": {
+      "label": {
+        "ja": "甘味",
+        "en": "Sweets",
+        "ko": "디저트",
+        "zh-Hans": "甜品",
+        "zh-Hant": "甜點"
+      },
+      "note": {
+        "ja": "ぜんざいの具は、小豆・白玉・わらびもちです。",
+        "en": "Zenzai comes with red beans, shiratama (rice dumplings) and warabi‑mochi.",
+        "ko": "젠자이에는 팥, 시라타마 경단, 와라비모치가 들어갑니다.",
+        "zh-Hans": "红豆甜品内含红豆、白玉团子及蕨饼。",
+        "zh-Hant": "紅豆甜點內含紅豆、白玉糰子及蕨餅。"
+      }
+    },
+    "ochazuke": {
+      "label": {
+        "ja": "お茶漬け",
+        "en": "Ochazuke (rice with broth)",
+        "ko": "오차즈케 (국물을 부어 먹는 밥)",
+        "zh-Hans": "茶泡饭",
+        "zh-Hant": "茶泡飯"
+      },
+      "note": {
+        "ja": "お米は煎茶と一緒に炊いています。お出汁を添えてお出しするので、ご自身でかけてお召し上がりください。わさびが欲しい方はお声がけください。",
+        "en": "The rice is cooked with sencha. Dashi broth is served on the side for you to pour over. Wasabi on request.",
+        "ko": "센차와 함께 지은 밥에 따로 제공되는 다시 국물을 부어 드세요. 와사비는 직원에게 요청해 주세요.",
+        "zh-Hans": "米饭与煎茶一同煮制。高汤另附，请自行浇在米饭上享用。如需芥末，请告知店员。",
+        "zh-Hant": "米飯與煎茶一同煮製。高湯另附，請自行淋在米飯上享用。如需芥末，請告知店員。"
+      }
+    },
+    "set": {
+      "label": {
+        "ja": "セット",
+        "en": "Sets",
+        "ko": "세트",
+        "zh-Hans": "套餐",
+        "zh-Hant": "套餐"
+      },
+      "note": null
+    },
+    "chazake": {
+      "label": {
+        "ja": "茶酒",
+        "en": "Tea cocktails",
+        "ko": "차 칵테일",
+        "zh-Hans": "茶调酒",
+        "zh-Hant": "茶調酒"
+      },
+      "note": null
+    },
+    "beer": {
+      "label": {
+        "ja": "ビール",
+        "en": "Beer",
+        "ko": "맥주",
+        "zh-Hans": "啤酒",
+        "zh-Hant": "啤酒"
+      },
+      "note": null
+    },
+    "sour": {
+      "label": {
+        "ja": "サワー",
+        "en": "Sour",
+        "ko": "사와 (탄산 칵테일)",
+        "zh-Hans": "沙瓦（气泡调酒）",
+        "zh-Hant": "沙瓦（氣泡調酒）"
+      },
+      "note": null
+    }
+  },
+  "notes": [
+    {
+      "ja": "おひとり様おひとつ以上のお飲み物のご注文をお願いします。",
+      "en": "Please order at least one drink per person.",
+      "ko": "1인당 음료를 한 잔 이상 주문해 주세요.",
+      "zh-Hans": "每位客人请至少点一杯饮品。",
+      "zh-Hant": "每位客人請至少點一杯飲品。"
+    },
+    {
+      "ja": "温かいお茶は3煎目までお楽しみいただけます。急須をお渡しいただければお湯をお注ぎします。2煎目・3煎目は温度を変えてお出しするので、味の変化を楽しめます。",
+      "en": "Hot tea can be enjoyed up to the third infusion. Hand us your teapot and we will add hot water. Each infusion is served at a different temperature, so you can taste how the tea changes.",
+      "ko": "따뜻한 차는 세 번까지 우려 드실 수 있습니다. 다관을 건네주시면 물을 더해 드립니다. 두 번째와 세 번째는 물의 온도를 달리하니 맛의 변화를 즐겨 보세요.",
+      "zh-Hans": "热茶可冲泡三次。请将茶壶交给店员续水。第二、三泡会调整水温，让您感受茶味的变化。",
+      "zh-Hant": "熱茶可沖泡三次。請將茶壺交給店員續水。第二、三泡會調整水溫，讓您感受茶味的變化。"
+    },
+    {
+      "ja": "飲み終えた急須の茶殻も食べられます。お声がけいただければ、お醤油と抹茶塩をお持ちします。",
+      "en": "The used tea leaves are edible too. Just ask, and we will bring soy sauce and matcha salt.",
+      "ko": "다 드신 뒤 다관에 남은 찻잎도 드실 수 있습니다. 요청하시면 간장과 말차 소금을 드립니다.",
+      "zh-Hans": "泡完的茶叶也可食用。如有需要，我们可提供酱油和抹茶盐。",
+      "zh-Hant": "泡完的茶葉也可食用。如有需要，我們可提供醬油和抹茶鹽。"
+    },
+    {
+      "ja": "お茶にはちょっとしたお菓子が付きます。不要な方はお声がけください。",
+      "en": "Tea comes with a small sweet. Please tell us if you would rather not have it.",
+      "ko": "차에는 작은 과자가 함께 나옵니다. 원하지 않으시면 말씀해 주세요.",
+      "zh-Hans": "茶饮附赠一份小点心。如不需要，请告知店员。",
+      "zh-Hant": "茶飲附贈一份小點心。如不需要，請告知店員。"
+    }
+  ],
+  "ui": {
+    "ja": {
+      "menu": "メニュー",
+      "hint": "",
+      "soldOut": "品切れ",
+      "details": "詳しい説明",
+      "notesTitle": "お茶を楽しむために",
+      "empty": "ただいま掲載しているお品物はありません。",
+      "error": "メニューを読み込めませんでした。",
+      "retry": "もう一度読み込む",
+      "loading": "読み込み中…",
+      "stale": "通信の都合で、保存してある情報を表示しています。最新の情報ではない可能性があります。",
+      "languageLabel": "言語",
+      "categoryLabel": "分類"
+    },
+    "en": {
+      "menu": "Menu",
+      "hint": "Show the Japanese name to our staff to order.",
+      "soldOut": "Sold out",
+      "details": "Details",
+      "notesTitle": "Enjoying your tea",
+      "empty": "No items are currently available in this category.",
+      "error": "Unable to load the menu.",
+      "retry": "Try again",
+      "loading": "Loading…",
+      "stale": "Showing saved information. It may not be up to date.",
+      "languageLabel": "Language",
+      "categoryLabel": "Categories"
+    },
+    "ko": {
+      "menu": "메뉴",
+      "hint": "주문하실 때 일본어 상품명을 직원에게 보여 주세요.",
+      "soldOut": "품절",
+      "details": "자세히 보기",
+      "notesTitle": "차를 즐기는 방법",
+      "empty": "현재 이 카테고리에 등록된 메뉴가 없습니다.",
+      "error": "메뉴를 불러오지 못했습니다.",
+      "retry": "다시 시도",
+      "loading": "불러오는 중…",
+      "stale": "저장된 정보를 표시하고 있습니다. 최신 정보가 아닐 수 있습니다.",
+      "languageLabel": "언어",
+      "categoryLabel": "분류"
+    },
+    "zh-Hans": {
+      "menu": "菜单",
+      "hint": "点餐时，请向店员出示日文商品名。",
+      "soldOut": "售罄",
+      "details": "详细介绍",
+      "notesTitle": "品茶须知",
+      "empty": "此分类暂无菜品。",
+      "error": "无法加载菜单。",
+      "retry": "重试",
+      "loading": "加载中…",
+      "stale": "正在显示已保存的信息，可能不是最新信息。",
+      "languageLabel": "语言",
+      "categoryLabel": "分类"
+    },
+    "zh-Hant": {
+      "menu": "菜單",
+      "hint": "點餐時，請向店員出示日文商品名。",
+      "soldOut": "售罄",
+      "details": "詳細介紹",
+      "notesTitle": "品茶須知",
+      "empty": "此分類暫無品項。",
+      "error": "無法載入菜單。",
+      "retry": "重試",
+      "loading": "載入中…",
+      "stale": "正在顯示已儲存的資訊，可能不是最新資訊。",
+      "languageLabel": "語言",
+      "categoryLabel": "分類"
+    }
+  }
+}

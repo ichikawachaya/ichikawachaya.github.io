@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self' https://duoqdrwvkltdwivvcfnq.supabase.co; base-uri 'none'; form-action 'none'; object-src 'none'">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="theme-color" content="#2f4636">
+  <title>メニュー｜市川茶屋</title>
+  <meta name="description" content="市川茶屋のメニュー。お茶・甘味・お食事・お酒。日本語・English・한국어・简体中文・繁體中文。">
+  <link rel="icon" href="assets/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@500;600&display=swap">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preload" href="menu-metadata.json" as="fetch" crossorigin>
+  <script type="module" src="menu.js"></script>
+</head>
+<body class="menu-page">
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a class="site-header__logo" href="./">
+        <img src="assets/logo.png" alt="市川茶屋" width="360" height="272">
+      </a>
+      <p class="site-header__title" id="page-title">メニュー</p>
+    </div>
+  </header>
+
+  <main class="menu-main" id="main">
+    <nav class="lang-switch" id="lang-switch" aria-label="言語"></nav>
+    <p class="order-hint" id="order-hint" hidden></p>
+
+    <nav class="category-tabs" id="category-tabs" aria-label="分類" hidden></nav>
+
+    <div class="status" id="status" role="status" aria-live="polite">
+      <p class="status__loading">読み込み中…</p>
+    </div>
+    <p class="stale-notice" id="stale-notice" role="note" hidden></p>
+
+    <div id="menu-sections"></div>
+
+    <section class="tea-notes" id="tea-notes" hidden>
+      <h2 class="tea-notes__title" id="tea-notes-title"></h2>
+      <ul class="tea-notes__list" id="tea-notes-list"></ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <img class="site-footer__character" src="assets/ichikawa-character.jpeg" alt="湯呑みを持った市川茶屋のキャラクター" width="440" height="480" loading="lazy">
+    <p class="site-footer__name">市川茶屋</p>
+  </footer>
+</body>
+</html>
