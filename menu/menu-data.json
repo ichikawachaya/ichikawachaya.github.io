@@ -1,0 +1,987 @@
+{
+  "snapshot": "2026-10-10",
+  "note": "Supabase接続失敗時だけ使う予備データ。正本はSupabaseのpublic.menu_items。",
+  "items": [
+    {
+      "id": "ichikawa-cha",
+      "sort": 0,
+      "price": 650,
+      "visible": true,
+      "sold_out": false,
+      "content": {
+        "name": {
+          "en": "Ichikawa‑cha",
+          "ja": "市川茶",
+          "ko": "이치카와차",
+          "zh-Hans": "市川茶（原创煎茶）",
+          "zh-Hant": "市川茶（原創煎茶）"
+        },
+        "unit": null,
+        "group": "original",
+        "serve": {
+          "en": "Hot or cold‑brewed",
+          "ja": "温 or 水出し",
+          "ko": "따뜻하게 또는 냉침",
+          "zh-Hans": "热茶或冷泡茶",
+          "zh-Hant": "熱茶或冷泡茶"
+        },
+        "origin": null,
+        "category": "tea",
+        "priceNote": null,
+        "description": {
+          "en": "Our house sencha, blended from several teas. Umami and sweetness with a clean finish. Lovely hot, and also recommended cold‑brewed. Not sure what to order? Start here.",
+          "ja": "数種類の茶葉を配合した、市川茶屋オリジナルの煎茶。旨味と甘味があり、後味すっきり。温かいのはもちろん、水出しもおすすめ。迷ったらまずこちらを。",
+          "ko": "여러 찻잎을 블렌딩한 오리지널 센차입니다. 감칠맛과 단맛, 깔끔한 끝맛이 특징이며 냉침으로도 추천합니다.",
+          "zh-Hans": "以多种茶叶调配的原创煎茶，鲜甜且回味清爽。热泡、冷泡皆宜。",
+          "zh-Hant": "以多種茶葉調配的原創煎茶，鮮甜且回味清爽。熱泡、冷泡皆宜。"
+        }
+      }
+    },
+    {
+      "id": "hachimaru",
+      "sort": 1,
+      "price": 600,
+      "visible": true,
+      "sold_out": false,
+      "content": {
+        "name": {
+          "en": "Hachimaru",
+          "ja": "八丸",
+          "ko": "하치마루",
+          "zh-Hans": "八丸（Hachimaru）",
+          "zh-Hant": "八丸（Hachimaru）"
+        },
+        "unit": null,
+        "group": "sencha",
+        "serve": null,
+        "origin": {
+          "en": "Yame tea, Fukuoka",
+          "ja": "福岡県産 八女茶",
+          "ko": "후쿠오카현 야메차",
+          "zh-Hans": "福冈县八女茶",
+          "zh-Hant": "福岡縣八女茶"
+        },
+        "category": "tea",
+        "priceNote": null,
+        "description": {
+          "en": "Strong umami and sweetness, with a hint of astringency.",
+          "ja": "旨味・甘味が強く、ほんのり渋みも感じる味わい。",
+          "ko": "감칠맛과 단맛이 진하며 은은한 떫은맛이 느껴집니다.",
+          "zh-Hans": "鲜味与甜味浓郁，带有淡淡涩味。",
+          "zh-Hant": "鮮味與甜味濃郁，帶有淡淡澀味。"
+        }
+      }
+    },
+    {
+      "id": "ro",
+      "sort": 2,
+      "price": 650,
+      "visible": true,
+      "sold_out": false,
+      "content": {
+        "name": {
+          "en": "Rō",
+          "ja": "朗",
+          "ko": "로",
+          "zh-Hans": "朗（Rō）",
+          "zh-Hant": "朗（Rō）"
+        },
+        "unit": null,
+        "group": "sencha",
+        "serve": null,
+        "origin": {
+          "en": "Yame tea, Fukuoka",
+          "ja": "福岡県産 八女茶",
+          "ko": "후쿠오카현 야메차",
+          "zh-Hans": "福冈县八女茶",
+          "zh-Hant": "福岡縣八女茶"
+        },
+        "category": "tea",
+        "priceNote": null,
+        "description": {
+          "en": "Umami and sweetness with a clean, light taste.",
+          "ja": "旨味・甘味があり、すっきりとした味わい。",
+          "ko": "감칠맛과 단맛이 어우러진 깔끔한 맛입니다.",
+          "zh-Hans": "鲜甜柔和，口感清爽。",
+          "zh-Hant": "鮮甜柔和，口感清爽。"
+        }
+      }
+    },
+    {
+      "id": "ritsu",
+      "sort": 3,
+      "price": 600,
+      "visible": true,
+      "sold_out": false,
+      "content": {
+        "name": {
+          "en": "Ritsu",
+          "ja": "律",
+          "ko": "리츠",
+          "zh-Hans": "律（Ritsu）",
+          "zh-Hant": "律（Ritsu）"
+        },
+        "unit": null,
+        "group": "sencha",
+        "serve": null,
+        "origin": {
+          "en": "Uji tea, Kyoto",
+          "ja": "京都府産 宇治茶",
+          "ko": "교토부 우지차",
+          "zh-Hans": "京都府宇治茶",
+          "zh-Hant": "京都府宇治茶"
+        },
+        "category": "tea",
+        "priceNote": null,
+        "description": {
+          "en": "Toasty aroma, gentle umami and a touch of astringency.",
+          "ja": "香ばしい香りで、ほのかな旨味と渋みのある味わい。",
+          "ko": "구수한 향과 은은한 감칠맛, 떫은맛이 어우러집니다.",
+          "zh-Hans": "香气温暖，鲜味柔和，略带涩味。",
+          "zh-Hant": "香氣溫暖，鮮味柔和，略帶澀味。"
+        }
+      }
+    },
+    {
+      "id": "takumi",
+      "sort": 4,
+      "price": 600,
+      "visible": true,
+      "sold_out": false,
+      "content": {
+        "name": {
+          "en": "Takumi",
+          "ja": "匠",
+          "ko": "타쿠미",
+          "zh-Hans": "匠（Takumi）",
+          "zh-Hant": "匠（Takumi）"
+        },
+        "unit": null,
+        "group": "sencha",
+        "serve": null,
+        "origin": {
+          "en": "Uji tea, Kyoto",
+          "ja": "京都府産 宇治茶",
+          "ko": "교토부 우지차",
+          "zh-Hans": "京都府宇治茶",
+          "zh-Hant": "京都府宇治茶"
+        },
+        "category": "tea",
+        "priceNote": null,
+        "description": {
+          "en": "Well balanced umami, sweetness and astringency, with a clean finish.",
+          "ja": "旨味・甘味・渋味のバランスがよく、すっきりとした味わい。",
+          "ko": "감칠맛, 단맛, 떫은맛의 균형이 좋고 깔끔합니다.",
+          "zh-Hans": "鲜味、甜味与涩味均衡，回味清爽。",
+          "zh-Hant": "鮮味、甜味與澀味均衡，回味清爽。"
+        }
+      }
+    },
+    {
+      "id": "ken",
+      "sort": 5,
+      "price": 600,
+      "visible": true,
+      "sold_out": false,
+      "content": {
+        "name": {
+          "en": "Ken",
+          "ja": "健",
+          "ko": "켄",
+          "zh-Hans": "健（Ken）",
+          "zh-Hant": "健（Ken）"
+        },
+        "unit": null,
+        "group": "sencha",
+        "serve": null,
+        "origin": {
+          "en": "Chiran tea, Kagoshima",
+          "ja": "鹿児島県産 知覧茶",
+          "ko": "가고시마현 지란차",
+          "zh-Hans": "鹿儿岛县知览茶",
+          "zh-Hant": "鹿兒島縣知覽茶"
+        },
+        "category": "tea",
+        "priceNote": null,
+        "description": {
+          "en": "Deep‑steamed tea, rich in colour and flavour: a classic green‑tea taste.",
+          "ja": "深蒸し茶で、色も味も濃い、お茶らしい味わい。",
+          "ko": "깊게 찐 녹차로, 색과 맛이 진하고 녹차 본연의 맛이 느껴집니다.",
+          "zh-Hans": "深蒸绿茶，茶色与茶味浓郁。",
+          "zh-Hant": "深蒸綠茶，茶色與茶味濃郁。"
+        }
+      }
+    },
+    {
+      "id": "ryoku",
+      "sort": 6,
+      "price": 650,
+      "visible": true,
+      "sold_out": false,
+      "content": {
+        "name": {
+          "en": "Ryoku",
+          "ja": "力",
+          "ko": "료쿠",
+          "zh-Hans": "力（Ryoku）",
+          "zh-Hant": "力（Ryoku）"
+        },
+        "unit": null,
+        "group": "sencha",
+        "serve": null,
+        "origin": {
+          "en": "Chiran tea, Kagoshima",
+          "ja": "鹿児島県産 知覧茶",
+          "ko": "가고시마현 지란차",
+          "zh-Hans": "鹿儿岛县知览茶",
+          "zh-Hant": "鹿兒島縣知覽茶"
+        },
+        "category": "tea",
+        "priceNote": null,
+        "description": {
+          "en": "Mellow body with strong umami and sweetness.",
+          "ja": "まろやかなコクと旨味、甘味を強く感じる味わい。",
+          "ko": "부드럽고 깊은 맛에 감칠맛과 단맛이 풍부합니다.",
+          "zh-Hans": "口感醇厚柔和，鲜味与甜味丰富。",
+          "zh-Hant": "口感醇厚柔和，鮮味與甜味豐富。"
+        }
+      }
+    },
+    {
+      "id": "gyokuro",
+      "sort": 7,
+      "price": 700,
+      "visible": true,
+      "sold_out": false,
+      "content": {
+        "name": {
+          "en": "Yame Gyokuro",
+          "ja": "八女玉露",
+          "ko": "야메 교쿠로",
+          "zh-Hans": "八女玉露",
+          "zh-Hant": "八女玉露"
+        },
+        "unit": null,
+        "group": "special",
+        "serve": null,
+        "origin": null,
+        "category": "tea",
+        "priceNote": null,
+        "description": {
+          "en": "Yame in Fukuoka is renowned for gyokuro. Rich, powerful umami and sweetness, slowly steeped in low‑temperature water.",
+          "ja": "福岡県八女市は玉露の名産地。濃厚で力強い旨味と甘み。低温のお湯でじっくり時間をかけて抽出します。",
+          "ko": "교쿠로 명산지인 후쿠오카현 야메의 차입니다. 낮은 온도의 물로 천천히 우려 진한 감칠맛과 단맛을 즐깁니다.",
+          "zh-Hans": "来自玉露名产地福冈县八女市。以低温水慢慢冲泡，鲜甜浓郁。",
+          "zh-Hant": "來自玉露名產地福岡縣八女市。以低溫水慢慢沖泡，鮮甜濃郁。"
+        }
+      }
+    },
+    {
+      "id": "hojicha",
+      "sort": 8,
+      "price": 600,
+      "visible": true,
+      "sold_out": false,
+      "content": {
+        "name": {
+          "en": "House‑roasted Hojicha",
+          "ja": "自家焙煎ほうじ茶",
+          "ko": "직접 볶은 호지차",
+          "zh-Hans": "自家烘焙焙茶",
+          "zh-Hant": "自家烘焙焙茶"
+        },
+        "unit": null,
+        "group": "special",
+        "serve": null,
+        "origin": null,
+        "category": "tea",
+        "priceNote": null,
+        "description": {
+          "en": "Roasted carefully in small batches in our shop. Fragrant and mellow.",
+          "ja": "店内で少量ずつ丁寧に炒っています。香りが高く、まろやかな味わい。",
+          "ko": "매장에서 소량씩 정성껏 볶습니다. 향이 풍부하고 맛이 부드럽습니다.",
+          "zh-Hans": "店内少量精心烘焙，香气浓郁，口感柔和。",
+          "zh-Hant": "店內少量精心烘焙，香氣濃郁，口感柔和。"
+        }
+      }
+    },
+    {
+      "id": "matcha",
+      "sort": 9,
+      "price": 700,
+      "visible": true,
+      "sold_out": false,
+      "content": {
+        "name": {
+          "en": "Yame Matcha",
+          "ja": "八女抹茶",
+          "ko": "야메 말차",
+          "zh-Hans": "八女抹茶",
+          "zh-Hant": "八女抹茶"
+        },
+        "unit": null,
+        "group": "special",
+        "serve": null,
+        "origin": null,
+        "category": "tea",
+        "priceNote": null,
+        "description": {
+          "en": "Elegant and mellow, with the natural sweetness of the leaf.",
+          "ja": "上品でまろやかな味わい。茶葉の甘みも感じる抹茶です。",
+          "ko": "우아하고 부드러우며 찻잎 본연의 단맛이 느껴집니다.",
+          "zh-Hans": "口感细腻柔和，带有茶叶本身的甘甜。",
+          "zh-Hant": "口感細膩柔和，帶有茶葉本身的甘甜。"
+        }
+      }
+    },
+    {
+      "id": "matcha-latte",
+      "sort": 10,
+      "price": 700,
+      "visible": true,
+      "sold_out": false,
+      "content": {
+        "name": {
+          "en": "Yame Matcha Latte",
+          "ja": "八女抹茶ラテ",
+          "ko": "야메 말차 라테",
+          "zh-Hans": "八女抹茶拿铁",
+          "zh-Hant": "八女抹茶拿鐵"
+        },
+        "unit": null,
+        "group": "latte",
+        "serve": {
+          "en": "Hot or iced",
+          "ja": "温・冷",
+          "ko": "따뜻하게 또는 차갑게",
+          "zh-Hans": "热饮或冰饮",
+          "zh-Hant": "熱飲或冰飲"
+        },
+        "origin": null,
+        "category": "tea",
+        "priceNote": null,
+        "description": {
+          "en": "Brings out the umami and sweetness of Yame tea; not too sweet. Can be made without syrup.",
+          "ja": "八女茶本来の旨み・甘みを活かした、甘すぎないラテ。シロップ抜きもできます。",
+          "ko": "야메차의 감칠맛과 단맛을 살린, 지나치게 달지 않은 라테입니다. 시럽 없이도 가능합니다.",
+          "zh-Hans": "保留八女茶的鲜甜，甜度适中。可选择不加糖浆。",
+          "zh-Hant": "保留八女茶的鮮甜，甜度適中。可選擇不加糖漿。"
+        }
+      }
+    },
+    {
+      "id": "hojicha-latte",
+      "sort": 11,
+      "price": 650,
+      "visible": true,
+      "sold_out": false,
+      "content": {
+        "name": {
+          "en": "Yame Hojicha Latte",
+          "ja": "八女ほうじ茶ラテ",
+          "ko": "야메 호지차 라테",
+          "zh-Hans": "八女焙茶拿铁",
+          "zh-Hant": "八女焙茶拿鐵"
+        },
+        "unit": null,
+        "group": "latte",
+        "serve": {
+          "en": "Hot or iced",
+          "ja": "温・冷",
+          "ko": "따뜻하게 또는 차갑게",
+          "zh-Hans": "热饮或冰饮",
+          "zh-Hant": "熱飲或冰飲"
+        },
+        "origin": null,
+        "category": "tea",
+        "priceNote": null,
+        "description": {
+          "en": "Brings out the umami and sweetness of Yame tea; not too sweet. Can be made without syrup.",
+          "ja": "八女茶本来の旨み・甘みを活かした、甘すぎないラテ。シロップ抜きもできます。",
+          "ko": "야메차의 감칠맛과 단맛을 살린, 지나치게 달지 않은 라테입니다. 시럽 없이도 가능합니다.",
+          "zh-Hans": "保留八女茶的鲜甜，甜度适中。可选择不加糖浆。",
+          "zh-Hant": "保留八女茶的鮮甜，甜度適中。可選擇不加糖漿。"
+        }
+      }
+    },
+    {
+      "id": "zenzai-matcha",
+      "sort": 12,
+      "price": 750,
+      "visible": true,
+      "sold_out": false,
+      "content": {
+        "name": {
+          "en": "Chilled Yame Matcha Zenzai",
+          "ja": "八女抹茶 冷やしぜんざい",
+          "ko": "야메 말차 냉 젠자이",
+          "zh-Hans": "八女抹茶冷红豆甜品",
+          "zh-Hant": "八女抹茶冷紅豆甜點"
+        },
+        "unit": null,
+        "group": "sweets",
+        "serve": null,
+        "origin": null,
+        "category": "food",
+        "priceNote": null,
+        "description": {
+          "en": "Sweet red‑bean dessert with rich matcha, not too sweet, so you can enjoy matcha’s natural sweetness and bitterness.",
+          "ja": "八女抹茶本来の甘みや苦みを楽しめるよう、抹茶が濃く、甘すぎないぜんざいです。",
+          "ko": "진한 야메 말차의 단맛과 쌉쌀함을 즐길 수 있는, 많이 달지 않은 팥 디저트입니다.",
+          "zh-Hans": "抹茶浓郁、甜度适中的红豆甜品，可品尝八女抹茶的甘甜与微苦。",
+          "zh-Hant": "抹茶濃郁、甜度適中的紅豆甜點，可品嚐八女抹茶的甘甜與微苦。"
+        }
+      }
+    },
+    {
+      "id": "zenzai-hojicha",
+      "sort": 13,
+      "price": 750,
+      "visible": true,
+      "sold_out": false,
+      "content": {
+        "name": {
+          "en": "Chilled Yame Hojicha Zenzai",
+          "ja": "八女ほうじ茶 冷やしぜんざい",
+          "ko": "야메 호지차 냉 젠자이",
+          "zh-Hans": "八女焙茶冷红豆甜品",
+          "zh-Hant": "八女焙茶冷紅豆甜點"
+        },
+        "unit": null,
+        "group": "sweets",
+        "serve": null,
+        "origin": null,
+        "category": "food",
+        "priceNote": null,
+        "description": {
+          "en": "Sweet red‑bean dessert with a strong roasted‑tea aroma and gentle sweetness.",
+          "ja": "ほうじ茶の香りと味が強く、ほどよい甘さのぜんざいです。",
+          "ko": "호지차의 향과 맛이 진하고 단맛이 적당한 팥 디저트입니다.",
+          "zh-Hans": "焙茶香气与茶味浓郁，甜度适中的红豆甜品。",
+          "zh-Hant": "焙茶香氣與茶味濃郁，甜度適中的紅豆甜點。"
+        }
+      }
+    },
+    {
+      "id": "dorayaki",
+      "sort": 14,
+      "price": 400,
+      "visible": true,
+      "sold_out": false,
+      "content": {
+        "name": {
+          "en": "Hojicha Dorayaki",
+          "ja": "ほうじ茶あんどら焼き",
+          "ko": "호지차 팥소 도라야키",
+          "zh-Hans": "焙茶红豆馅铜锣烧",
+          "zh-Hant": "焙茶紅豆餡銅鑼燒"
+        },
+        "unit": {
+          "en": "each",
+          "ja": "おひとつ",
+          "ko": "1개",
+          "zh-Hans": "每个",
+          "zh-Hant": "每個"
+        },
+        "group": "sweets",
+        "serve": null,
+        "origin": null,
+        "category": "food",
+        "priceNote": null,
+        "description": {
+          "en": "Made for us by Miyoshiya, a Sapporo confectioner founded in 1961, with the Yame hojicha we serve. Filled with hojicha bean paste made from Hokkaido red beans and wasanbon sugar. Eat in or take away.",
+          "ja": "札幌・二十四軒で1961年創業の和菓子屋「美好屋」さんに、市川茶屋の八女ほうじ茶で作っていただいたどら焼き。道産小豆と和三盆糖などで仕上げたほうじ茶あん入り。店内でも、お持ち帰りでもどうぞ。",
+          "ko": "1961년 창업한 삿포로 화과자점 미요시야가 이치카와 차야의 야메 호지차로 만든 도라야키입니다. 홋카이도산 팥과 와산본 설탕 등을 사용한 호지차 팥소가 들어갑니다. 매장 식사와 포장 모두 가능합니다.",
+          "zh-Hans": "由札幌老字号和果子店「美好屋」（创立于1961年）使用本店八女焙茶制作。焙茶馅含北海道红豆、和三盆糖等，可堂食或外带。",
+          "zh-Hant": "由札幌老字號和菓子店「美好屋」（創立於1961年）使用本店八女焙茶製作。焙茶餡含北海道紅豆、和三盆糖等，可內用或外帶。"
+        }
+      }
+    },
+    {
+      "id": "chazuke-salmon",
+      "sort": 15,
+      "price": 800,
+      "visible": true,
+      "sold_out": false,
+      "content": {
+        "name": {
+          "en": "Salmon Ochazuke",
+          "ja": "鮭茶漬け",
+          "ko": "연어 오차즈케",
+          "zh-Hans": "鲑鱼茶泡饭",
+          "zh-Hant": "鮭魚茶泡飯"
+        },
+        "unit": null,
+        "group": "ochazuke",
+        "serve": null,
+        "origin": null,
+        "category": "food",
+        "priceNote": null,
+        "description": null
+      }
+    },
+    {
+      "id": "chazuke-mentaiko",
+      "sort": 16,
+      "price": 800,
+      "visible": true,
+      "sold_out": false,
+      "content": {
+        "name": {
+          "en": "Mentaiko Ochazuke",
+          "ja": "明太子茶漬け",
+          "ko": "명란 오차즈케",
+          "zh-Hans": "明太子茶泡饭",
+          "zh-Hant": "明太子茶泡飯"
+        },
+        "unit": null,
+        "group": "ochazuke",
+        "serve": null,
+        "origin": null,
+        "category": "food",
+        "priceNote": null,
+        "description": {
+          "en": "Mentaiko: seasoned pollock roe.",
+          "ja": "",
+          "ko": "명란: 양념한 명태 알입니다.",
+          "zh-Hans": "明太子是调味鳕鱼子。",
+          "zh-Hant": "明太子是調味鱈魚子。"
+        }
+      }
+    },
+    {
+      "id": "chazuke-ume",
+      "sort": 17,
+      "price": 800,
+      "visible": true,
+      "sold_out": false,
+      "content": {
+        "name": {
+          "en": "Ume Ochazuke (Yame Gyokuro Ume)",
+          "ja": "梅茶漬け（八女玉露梅）",
+          "ko": "매실 오차즈케 (야메 교쿠로 매실)",
+          "zh-Hans": "梅子茶泡饭（八女玉露梅）",
+          "zh-Hant": "梅子茶泡飯（八女玉露梅）"
+        },
+        "unit": null,
+        "group": "ochazuke",
+        "serve": null,
+        "origin": null,
+        "category": "food",
+        "priceNote": null,
+        "description": {
+          "en": "Gyokuro ume plums can also be ordered on their own: ¥500 for two.",
+          "ja": "玉露梅は単品（2個入）500円でも注文できます。",
+          "ko": "교쿠로 매실은 단품으로도 주문 가능합니다. 2개에 500엔입니다.",
+          "zh-Hans": "玉露梅可单点：2颗500日元。",
+          "zh-Hant": "玉露梅可單點：2顆500日圓。"
+        }
+      }
+    },
+    {
+      "id": "set-zenzai",
+      "sort": 18,
+      "price": 1300,
+      "visible": true,
+      "sold_out": false,
+      "content": {
+        "name": {
+          "en": "Sencha & Zenzai Set",
+          "ja": "煎茶とぜんざいのセット",
+          "ko": "센차와 젠자이 세트",
+          "zh-Hans": "煎茶与红豆甜品套餐",
+          "zh-Hant": "煎茶與紅豆甜點套餐"
+        },
+        "unit": null,
+        "group": "set",
+        "serve": null,
+        "origin": null,
+        "category": "food",
+        "priceNote": null,
+        "description": {
+          "en": "Choose one of the two zenzai and one tea from the sencha selection.",
+          "ja": "ぜんざい2種のどちらかと、「煎茶メニュー」からおひとつお選びください。",
+          "ko": "젠자이 2종 중 하나와 센차 목록에서 차 한 가지를 골라 주세요.",
+          "zh-Hans": "请选择一种红豆甜品，并从煎茶列表中选择一款茶。",
+          "zh-Hant": "請選擇一種紅豆甜點，並從煎茶列表中選擇一款茶。"
+        }
+      }
+    },
+    {
+      "id": "set-ochazuke",
+      "sort": 19,
+      "price": 1300,
+      "visible": true,
+      "sold_out": false,
+      "content": {
+        "name": {
+          "en": "Sencha & Ochazuke Set",
+          "ja": "煎茶とお茶漬けのセット",
+          "ko": "센차와 오차즈케 세트",
+          "zh-Hans": "煎茶与茶泡饭套餐",
+          "zh-Hant": "煎茶與茶泡飯套餐"
+        },
+        "unit": null,
+        "group": "set",
+        "serve": null,
+        "origin": null,
+        "category": "food",
+        "priceNote": null,
+        "description": {
+          "en": "Choose one of the three ochazuke and one tea from the sencha selection.",
+          "ja": "お茶漬け3種のどれかと、「煎茶メニュー」からおひとつお選びください。",
+          "ko": "오차즈케 3종 중 하나와 센차 목록에서 차 한 가지를 골라 주세요.",
+          "zh-Hans": "请选择一种茶泡饭，并从煎茶列表中选择一款茶。",
+          "zh-Hant": "請選擇一種茶泡飯，並從煎茶列表中選擇一款茶。"
+        }
+      }
+    },
+    {
+      "id": "matcha-beer",
+      "sort": 20,
+      "price": 750,
+      "visible": true,
+      "sold_out": false,
+      "content": {
+        "name": {
+          "en": "Yame Matcha Beer",
+          "ja": "八女抹茶ビール",
+          "ko": "야메 말차 맥주",
+          "zh-Hans": "八女抹茶啤酒",
+          "zh-Hant": "八女抹茶啤酒"
+        },
+        "unit": null,
+        "group": "chazake",
+        "serve": null,
+        "origin": null,
+        "category": "alcohol",
+        "priceNote": null,
+        "description": null
+      }
+    },
+    {
+      "id": "hojicha-beer",
+      "sort": 21,
+      "price": 750,
+      "visible": true,
+      "sold_out": false,
+      "content": {
+        "name": {
+          "en": "Yame Hojicha Beer",
+          "ja": "八女ほうじ茶ビール",
+          "ko": "야메 호지차 맥주",
+          "zh-Hans": "八女焙茶啤酒",
+          "zh-Hant": "八女焙茶啤酒"
+        },
+        "unit": null,
+        "group": "chazake",
+        "serve": null,
+        "origin": null,
+        "category": "alcohol",
+        "priceNote": null,
+        "description": null
+      }
+    },
+    {
+      "id": "ichikawa-wari",
+      "sort": 22,
+      "price": 700,
+      "visible": true,
+      "sold_out": false,
+      "content": {
+        "name": {
+          "en": "Ichikawa‑cha Wari",
+          "ja": "市川茶割",
+          "ko": "이치카와차 믹스 주류",
+          "zh-Hans": "市川茶调酒",
+          "zh-Hant": "市川茶調酒"
+        },
+        "unit": null,
+        "group": "chazake",
+        "serve": null,
+        "origin": null,
+        "category": "alcohol",
+        "priceNote": null,
+        "description": {
+          "en": "“Wari” means an alcoholic drink mixed with tea.",
+          "ja": "",
+          "ko": "술에 이치카와차를 섞은 음료입니다.",
+          "zh-Hans": "以市川茶调配的酒饮。",
+          "zh-Hant": "以市川茶調配的酒飲。"
+        }
+      }
+    },
+    {
+      "id": "kagabo-wari",
+      "sort": 23,
+      "price": 650,
+      "visible": true,
+      "sold_out": false,
+      "content": {
+        "name": {
+          "en": "Kaga‑bō Hojicha Wari",
+          "ja": "加賀棒ほうじ茶割",
+          "ko": "가가 보 호지차 믹스 주류",
+          "zh-Hans": "加贺棒焙茶调酒",
+          "zh-Hant": "加賀棒焙茶調酒"
+        },
+        "unit": null,
+        "group": "chazake",
+        "serve": null,
+        "origin": null,
+        "category": "alcohol",
+        "priceNote": null,
+        "description": null
+      }
+    },
+    {
+      "id": "chiran-kocha-wari",
+      "sort": 24,
+      "price": 650,
+      "visible": true,
+      "sold_out": false,
+      "content": {
+        "name": {
+          "en": "Chiran Black Tea Wari",
+          "ja": "知覧紅茶割",
+          "ko": "지란 홍차 믹스 주류",
+          "zh-Hans": "知览红茶调酒",
+          "zh-Hant": "知覽紅茶調酒"
+        },
+        "unit": null,
+        "group": "chazake",
+        "serve": null,
+        "origin": null,
+        "category": "alcohol",
+        "priceNote": null,
+        "description": null
+      }
+    },
+    {
+      "id": "corn-wari",
+      "sort": 25,
+      "price": 650,
+      "visible": true,
+      "sold_out": false,
+      "content": {
+        "name": {
+          "en": "Corn Tea Wari",
+          "ja": "コーン茶割",
+          "ko": "옥수수차 믹스 주류",
+          "zh-Hans": "玉米茶调酒",
+          "zh-Hant": "玉米茶調酒"
+        },
+        "unit": null,
+        "group": "chazake",
+        "serve": null,
+        "origin": null,
+        "category": "alcohol",
+        "priceNote": null,
+        "description": null
+      }
+    },
+    {
+      "id": "sencha-gin",
+      "sort": 26,
+      "price": 750,
+      "visible": true,
+      "sold_out": false,
+      "content": {
+        "name": {
+          "en": "Sencha Gin & Tonic",
+          "ja": "煎茶ジントニック",
+          "ko": "센차 진토닉",
+          "zh-Hans": "煎茶金汤力",
+          "zh-Hant": "煎茶琴通寧"
+        },
+        "unit": null,
+        "group": "chazake",
+        "serve": null,
+        "origin": null,
+        "category": "alcohol",
+        "priceNote": null,
+        "description": {
+          "en": "Also available with soda instead of tonic.",
+          "ja": "ソーダ割りもできます。",
+          "ko": "토닉워터 대신 탄산수로도 가능합니다.",
+          "zh-Hans": "也可用苏打水代替汤力水。",
+          "zh-Hant": "也可用蘇打水代替通寧水。"
+        }
+      }
+    },
+    {
+      "id": "sencha-highball",
+      "sort": 27,
+      "price": 750,
+      "visible": true,
+      "sold_out": false,
+      "content": {
+        "name": {
+          "en": "Sencha Highball",
+          "ja": "煎茶ハイボール",
+          "ko": "센차 하이볼",
+          "zh-Hans": "煎茶嗨棒",
+          "zh-Hant": "煎茶Highball"
+        },
+        "unit": null,
+        "group": "chazake",
+        "serve": null,
+        "origin": null,
+        "category": "alcohol",
+        "priceNote": null,
+        "description": null
+      }
+    },
+    {
+      "id": "hojicha-highball",
+      "sort": 28,
+      "price": 700,
+      "visible": true,
+      "sold_out": false,
+      "content": {
+        "name": {
+          "en": "Hojicha Highball",
+          "ja": "ほうじ茶ハイボール",
+          "ko": "호지차 하이볼",
+          "zh-Hans": "焙茶嗨棒",
+          "zh-Hant": "焙茶Highball"
+        },
+        "unit": null,
+        "group": "chazake",
+        "serve": null,
+        "origin": null,
+        "category": "alcohol",
+        "priceNote": null,
+        "description": null
+      }
+    },
+    {
+      "id": "draft",
+      "sort": 29,
+      "price": 650,
+      "visible": true,
+      "sold_out": false,
+      "content": {
+        "name": {
+          "en": "Draft Beer (Classic)",
+          "ja": "生ビール（クラシック）",
+          "ko": "생맥주 (클래식)",
+          "zh-Hans": "生啤酒（Classic）",
+          "zh-Hant": "生啤酒（Classic）"
+        },
+        "unit": null,
+        "group": "beer",
+        "serve": null,
+        "origin": null,
+        "category": "alcohol",
+        "priceNote": null,
+        "description": null
+      }
+    },
+    {
+      "id": "pilsner",
+      "sort": 30,
+      "price": 1200,
+      "visible": true,
+      "sold_out": false,
+      "content": {
+        "name": {
+          "en": "BRIGHT STAR PILSNER",
+          "ja": "BRIGHT STAR PILSNER",
+          "ko": "브라이트 스타 필스너",
+          "zh-Hans": "BRIGHT STAR 皮尔森啤酒",
+          "zh-Hant": "BRIGHT STAR 皮爾森啤酒"
+        },
+        "unit": null,
+        "group": "beer",
+        "serve": null,
+        "origin": {
+          "en": "Craft beer from Yame, Fukuoka",
+          "ja": "福岡県八女産クラフトビール",
+          "ko": "후쿠오카현 야메산 수제 맥주",
+          "zh-Hans": "福冈县八女精酿啤酒",
+          "zh-Hant": "福岡縣八女精釀啤酒"
+        },
+        "category": "alcohol",
+        "priceNote": null,
+        "description": {
+          "en": "Pilsner brewed with Yame tea. Low‑temperature fermentation and long ageing give a crisp, clean taste.",
+          "ja": "八女茶を使ったピルスナー。低温での発酵と長期熟成による、さっぱりとした飲み口。",
+          "ko": "야메차를 사용한 필스너입니다. 저온 발효와 장기 숙성으로 깔끔한 맛을 냅니다.",
+          "zh-Hans": "使用八女茶酿制的皮尔森啤酒。低温发酵与长期熟成带来清爽口感。",
+          "zh-Hant": "使用八女茶釀製的皮爾森啤酒。低溫發酵與長期熟成帶來清爽口感。"
+        }
+      }
+    },
+    {
+      "id": "ipa",
+      "sort": 31,
+      "price": 1200,
+      "visible": true,
+      "sold_out": false,
+      "content": {
+        "name": {
+          "en": "FUKAMUSHI IPA",
+          "ja": "FUKAMUSHI IPA",
+          "ko": "후카무시 IPA",
+          "zh-Hans": "FUKAMUSHI 深蒸茶 IPA",
+          "zh-Hant": "FUKAMUSHI 深蒸茶 IPA"
+        },
+        "unit": null,
+        "group": "beer",
+        "serve": null,
+        "origin": {
+          "en": "Craft beer from Yame, Fukuoka",
+          "ja": "福岡県八女産クラフトビール",
+          "ko": "후쿠오카현 야메산 수제 맥주",
+          "zh-Hans": "福冈县八女精酿啤酒",
+          "zh-Hant": "福岡縣八女精釀啤酒"
+        },
+        "category": "alcohol",
+        "priceNote": null,
+        "description": {
+          "en": "IPA brewed with deep‑steamed Yame tea. Strong citrusy hop aroma and bitterness.",
+          "ja": "深蒸し八女茶を使ったIPA。強い柑橘系ホップの香りと苦味が特長。",
+          "ko": "깊게 찐 야메차를 사용한 IPA입니다. 강한 감귤류 홉 향과 쓴맛이 특징입니다.",
+          "zh-Hans": "使用深蒸八女茶酿制的IPA，带有浓郁的柑橘酒花香与苦味。",
+          "zh-Hant": "使用深蒸八女茶釀製的IPA，帶有濃郁的柑橘酒花香與苦味。"
+        }
+      }
+    },
+    {
+      "id": "gyokuro-ume-sour",
+      "sort": 32,
+      "price": 800,
+      "visible": true,
+      "sold_out": false,
+      "content": {
+        "name": {
+          "en": "Gyokuro Ume Sour",
+          "ja": "玉露梅サワー",
+          "ko": "교쿠로 매실 사와",
+          "zh-Hans": "玉露梅沙瓦",
+          "zh-Hant": "玉露梅沙瓦"
+        },
+        "unit": null,
+        "group": "sour",
+        "serve": null,
+        "origin": null,
+        "category": "alcohol",
+        "priceNote": {
+          "en": "Refills ¥600",
+          "ja": "2杯目以降 600円",
+          "ko": "두 번째 잔부터 600엔",
+          "zh-Hans": "第二杯起600日元",
+          "zh-Hant": "第二杯起600日圓"
+        },
+        "description": {
+          "en": "Our original plum sour: house‑made tea shochu with soda and a house‑made gyokuro ume plum. Crush the plum or not, as you like. Refill the same glass with tea shochu and soda.",
+          "ja": "自家製のお茶焼酎を炭酸水で割り、自家製の玉露梅を入れたオリジナル梅サワー。梅はつぶしても、そのままでも。グラスそのままで、お茶焼酎と炭酸水のおかわりができます。",
+          "ko": "직접 만든 차 소주에 탄산수와 수제 교쿠로 매실을 넣었습니다. 매실은 으깨거나 그대로 즐기세요. 같은 잔에 차 소주와 탄산수를 리필할 수 있습니다.",
+          "zh-Hans": "自制茶烧酒加苏打水与自制玉露梅。梅子可捣碎或直接享用，可用原杯续加茶烧酒与苏打水。",
+          "zh-Hant": "自製茶燒酎加蘇打水與自製玉露梅。梅子可搗碎或直接享用，可用原杯續加茶燒酎與蘇打水。"
+        }
+      }
+    }
+  ]
+}

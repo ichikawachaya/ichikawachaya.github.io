@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="robots" content="noindex, nofollow">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self' https://duoqdrwvkltdwivvcfnq.supabase.co; base-uri 'none'; form-action 'none'; object-src 'none'">
+  <meta name="referrer" content="no-referrer">
+  <meta name="theme-color" content="#2f4636">
+  <title>お品書きの管理｜市川茶屋</title>
+  <link rel="icon" href="../assets/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@500;600&display=swap">
+  <link rel="stylesheet" href="../styles.css">
+  <script type="module" src="admin.js"></script>
+</head>
+<body class="admin-page">
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a class="site-header__logo" href="./">
+        <img src="../assets/logo.png" alt="市川茶屋" width="360" height="272">
+      </a>
+      <p class="site-header__title">お品書きの管理</p>
+    </div>
+  </header>
+
+  <main class="admin-main">
+    <p class="status__loading" id="boot">読み込み中…</p>
+
+    <!-- ログイン -->
+    <section class="login-panel" id="login-view" hidden>
+      <h1>ログイン</h1>
+      <p>IDとパスワードを入れてください。</p>
+      <form id="login-form" novalidate>
+        <p class="message message--error" id="login-message" role="alert" hidden></p>
+        <label class="field" for="login-id">ID
+          <input id="login-id" name="username" autocomplete="username" autocapitalize="off" spellcheck="false" required value="ichikawachaya">
+        </label>
+        <label class="field" for="login-password">パスワード
+          <input id="login-password" name="password" type="password" autocomplete="current-password" required>
+        </label>
+        <button class="button" type="submit" id="login-button">ログイン</button>
+      </form>
+    </section>
+
+    <!-- 管理画面 -->
+    <section id="app-view" hidden>
+      <div class="admin-toolbar">
+        <h1 class="admin-heading">商品の一覧</h1>
+        <div>
+          <a class="button button--quiet" href="../" target="_blank" rel="noopener">お客様の画面を見る</a>
+          <button class="button button--quiet" type="button" id="logout-button">ログアウト</button>
+        </div>
+      </div>
+
+      <p class="message" id="app-message" role="status" aria-live="polite" hidden></p>
+
+      <div class="admin-filters">
+        <label class="field" for="search">商品名でさがす
+          <input id="search" type="search" placeholder="例：抹茶、matcha、말차" autocomplete="off">
+        </label>
+        <div class="filter-chips" id="filter-chips" role="group" aria-label="しぼりこみ"></div>
+      </div>
+      <p class="admin-count" id="admin-count"></p>
+      <ul class="admin-list" id="admin-list"></ul>
+
+      <section class="admin-help">
+        <h2>使い方</h2>
+        <ul>
+          <li>値段を変えるときは、数字を入れて「保存」を押します。</li>
+          <li>「お客様に表示」を押すと、メニューから隠したり、また出したりできます。</li>
+          <li>「販売中／品切れ」を押すと、メニューに「品切れ」と表示されます。</li>
+          <li>変更はすぐにお客様のメニューに反映されます（画面の読み込み直しが必要な場合があります）。</li>
+        </ul>
+      </section>
+    </section>
+  </main>
+</body>
+</html>
