@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Menu | Ichikawa Chaya 市川茶屋</title>
+  <meta name="description" content="Menu of Ichikawa Chaya, a Japanese tea house in Sapporo: sencha, gyokuro, matcha, sweets, ochazuke and tea cocktails. English / 日本語.">
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#F4EDDB">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;700&display=swap">
+  <link rel="stylesheet" href="style.css">
+  <script src="design.js"></script>
+</head>
+<body class="menu-page">
+  <a class="skip-link" href="#main" data-i18n="skip">Skip to content</a>
+
+  <div class="sample-bar"><span data-i18n="sampleBar">Proposal sample (for review)</span><span class="design-switch" aria-label="デザインのサンプル"><a data-design="a" href="?design=a">サンプル1 明朝</a><a data-design="b" href="?design=b">サンプル2 手書き風</a></span></div>
+
+  <header class="menu-header">
+    <div class="menu-header__inner">
+      <a class="menu-header__back" href="index.html"><span aria-hidden="true">←</span> <span data-i18n="back">Home</span></a>
+      <div class="switch" role="group" aria-label="Language / 言語">
+        <button type="button" class="switch__btn" data-lang="en" lang="en" aria-pressed="true">English</button>
+        <button type="button" class="switch__btn" data-lang="ja" lang="ja" aria-pressed="false">日本語</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main" class="menu-main">
+    <div class="menu-title">
+      <img src="assets/img/logo.png" alt="" width="360" height="272">
+      <div>
+        <p class="menu-title__shop"><span lang="ja">市川茶屋</span> <span lang="en">Ichikawa Chaya</span></p>
+        <h1 data-i18n="title">Menu</h1>
+        <p class="menu-title__sub" data-i18n="subtitle">Japanese tea house in Sapporo</p>
+      </div>
+    </div>
+
+    <div class="menu-notice" role="note">
+      <p id="menu-source"></p>
+      <p id="check-legend" hidden></p>
+    </div>
+
+    <nav class="cat-bar" data-i18n-label="catLabel" aria-label="Category">
+      <div class="cat-bar__inner" id="cat-buttons"></div>
+    </nav>
+
+    <p class="visually-hidden" id="menu-status" aria-live="polite"></p>
+    <div id="menu-body"></div>
+    <noscript><p>Please enable JavaScript to view the menu. / メニューの表示にはJavaScriptが必要です。</p></noscript>
+
+    <section class="house-notes" aria-labelledby="notes-title">
+      <h2 id="notes-title" data-i18n="notesTitle">How to enjoy your tea</h2>
+      <ul id="house-notes"></ul>
+    </section>
+
+    <section class="menu-info" aria-labelledby="info-title">
+      <h2 id="info-title" data-i18n="infoTitle">Shop information</h2>
+      <dl class="info-list">
+        <div><dt data-i18n="hoursLabel">Hours</dt><dd data-shop-i18n="hours"></dd></div>
+        <div><dt data-i18n="closedLabel">Closed</dt><dd data-shop-i18n="closed"></dd></div>
+        <div><dt data-i18n="addressLabel">Address</dt><dd data-shop-i18n="address"></dd></div>
+      </dl>
+      <p class="menu-info__note" data-i18n="instaNote">For the latest news and holidays, please check our Instagram.</p>
+      <div class="menu-info__links">
+        <a class="btn btn--primary" href="https://www.instagram.com/ichikawachaya/" target="_blank" rel="noopener">Instagram<span class="ext" aria-hidden="true">↗</span></a>
+        <a class="btn btn--line" href="https://www.google.com/maps/search/?api=1&amp;query=%E5%8C%97%E6%B5%B7%E9%81%93%E6%9C%AD%E5%B9%8C%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%E5%8D%974%E6%9D%A1%E8%A5%BF6%E4%B8%81%E7%9B%AE8-3" target="_blank" rel="noopener"><span data-i18n="mapLink">Open in Google Maps</span><span class="ext" aria-hidden="true">↗</span></a>
+        <a class="btn btn--line" href="https://ichikawa0501.base.ec/" target="_blank" rel="noopener"><span data-i18n="shopLink">Online shop</span><span class="ext" aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="menu-footer">
+    <p data-i18n="priceFoot">Prices are as shown on our in-store menu. Online shop prices include tax.</p>
+    <p><small>© 市川茶屋 Ichikawa Chaya</small></p>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="menu.js"></script>
+</body>
+</html>
