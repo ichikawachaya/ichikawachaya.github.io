@@ -93,10 +93,6 @@ window.ICHIKAWA = {
     {
       id: "alcohol",
       label: { ja: "お酒", en: "Alcohol" },
-      note: {
-        ja: "18時以降、お酒を飲まれる方はチャージ料として300円いただいております。",
-        en: "After 6 pm, a ¥300 charge applies to guests ordering alcohol."
-      },
       groups: [
         { id: "chazake", label: { ja: "茶酒", en: "Tea cocktails" } },
         { id: "beer", label: { ja: "ビール", en: "Beer" } },

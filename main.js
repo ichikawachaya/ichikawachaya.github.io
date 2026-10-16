@@ -80,7 +80,7 @@
     row("ラテ（抹茶・ほうじ茶）", "温・冷", range(lattes), lattes)
   );
   setHTML("alcohol-lines",
-    row("茶酒・ビール・サワー", "18時以降、お酒を飲まれる方はチャージ300円", range(alcohol), alcohol)
+    row("茶酒・ビール・サワー", "", range(alcohol), alcohol)
   );
   setHTML("house-notes", data.houseNotes.map(function (n) { return "<li>" + esc(n.ja) + "</li>"; }).join(""));
 

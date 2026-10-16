@@ -77,13 +77,7 @@
         "zh-Hans": "酒类",
         "zh-Hant": "酒類"
       },
-      "note": {
-        "ja": "18時以降、お酒を飲まれる方はチャージ料として300円いただいております。",
-        "en": "After 6 pm, a ¥300 charge applies to guests ordering alcohol.",
-        "ko": "오후 6시 이후 주류를 주문하시는 분께는 300엔의 추가 요금이 부과됩니다.",
-        "zh-Hans": "18:00后，点酒的客人需支付300日元附加费。",
-        "zh-Hant": "18:00後，點酒的客人需支付300日圓附加費。"
-      },
+      "note": null,
       "groups": [
         "chazake",
         "beer",
